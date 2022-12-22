@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Google Apps]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="newpackage.testngdemo2">
+        <methods>
+          <include name="checkLogo"/>
+          <include name="Microsoft"/>
+          <include name="BrowserSetup"/>
+          <include name="BrowserClose"/>
+          <include name="checkText"/>
+        </methods>
+      </class> <!-- newpackage.testngdemo2 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->
